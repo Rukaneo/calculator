@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+</div>
+    <h1> Simple Calculator below</h1>
+
+<div>
+    <input type=number id="first" placeholder="Enter the first digit here" value="0">  
+
+    <select name="sign" id="sign" onchange="selectedChange()">
+        <option value="+"> + </option>
+        <option value="-"> - </option>
+        <option value="/"> / </option>
+        <option value="*"> * </option>
+        <option value="△">△ </option>
+        <option value="○"> ○ </option>
+        <option value="◻">◻</option>
+      </select>
+
+    <input type=number id="second" placeholder="Enter second digit here" > 
+</div>
+      <br> <br>
+<div style="display:flex">
+    <h2 id="output"> </h2> <h2 id="area"  >²</h2>
+</div>
+
+      <br> <br>
+    <button onclick="calculate2()"> Calculate</button>
+<div>
+
+
+<div>
+    <h1> Note</h1>
+    
+    <h3>The first input box (one the left) represents the radius or base. The one the right for finding the  triangle is height.</h3>
+    
+
+</div>
+
+    
+
+    <script src="calculator.js">
+        
+    </script>
+</body>
+</html>
